@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+
+    <header class="cabeza">
+        <div class="menu">
+            
+                <img src="../img/loco lc.jpg" alt="" class="logo">
+            
+            <div class="obj">
+                <ul class="lista">
+                    <li><a href="../html/index.html"  target="_blank">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+
+
+        <section class="formulario container">
+
+            <form action="../php/registro.php" method="post">
+                <h3>Registrarse</h3>
+                <div class="inputbox">
+                    <label for="">Nombre</label>
+                    <span class="fas fa-user"></span>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="inputbox">
+                    <label for="">Correo</label>
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="inputbox">
+                    <label for="">Contraseña</label>
+                    <span class="fas fa-phone"></span>
+                    <input type="password" name="contrase" required>
+                </div>
+                <input href="../html/index.html" type="submit" value="Registrar" class="btn">
+                
+                
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+    
+</body>
+</html>
